@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.3
+* Add sync constants
+* [Breaking] Rename `characters` export to `characterConstants`
+
 ## 0.0.2
 * Fix package dependencies
 

@@ -7,10 +7,11 @@ const {
   CHARACTER_SKIN_COLORS,
   CHARACTER_HAIR_COLORS
 } = require('./constants/characters');
+const { UPDATE_GAME } = require('./constants/sync');
 
 
 module.exports = {
-  characters: {
+  characterConstants: {
     AUTH_USER,
     GAME_MASTER,
     classes: CHARACTER_CLASSES,
@@ -18,5 +19,8 @@ module.exports = {
     alignments: CHARACTER_ALIGNMENTS,
     skinColors: CHARACTER_SKIN_COLORS,
     hairColors: CHARACTER_HAIR_COLORS
+  },
+  syncConstants: {
+    UPDATE_GAME
   }
 };
