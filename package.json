@@ -1,0 +1,26 @@
+{
+  "name": "gm-common",
+  "version": "0.0.1",
+  "description": "Common utilities and constants for Game Master",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "author": "Andrew Brainerd",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-plugin-jest": "23.8.2",
+    "husky": "4.2.3",
+    "jest": "25.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
+  },
+  "dependencies": {
+    "eslint-plugin-node": "11.0.0"
+  }
+}
