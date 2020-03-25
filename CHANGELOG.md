@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.6
+
+- Add basic documentation
+
 ## 0.0.5
 
 - Update characters races structure

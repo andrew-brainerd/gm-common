@@ -13,7 +13,7 @@ const { UPDATE_GAME } = require('./constants/sync');
 
 
 module.exports = {
-  characterConstants: {
+  characters: {
     AUTH_USER,
     GAME_MASTER,
     classTypes: CHARACTER_CLASS_TYPES,
@@ -24,7 +24,7 @@ module.exports = {
     skinColors: CHARACTER_SKIN_COLORS,
     hairColors: CHARACTER_HAIR_COLORS
   },
-  syncConstants: {
+  syncing: {
     UPDATE_GAME
   }
 };
