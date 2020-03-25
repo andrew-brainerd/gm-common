@@ -14,6 +14,7 @@ module.exports = {
   characterConstants: {
     AUTH_USER,
     GAME_MASTER,
+    classTypes: CHARACTER_CLASS_TYPES,
     classes: CHARACTER_CLASSES,
     races: CHARACTER_RACES,
     alignments: CHARACTER_ALIGNMENTS,

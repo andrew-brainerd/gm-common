@@ -8,19 +8,83 @@ const GAME_MASTER = {
   color: '#7383BF'
 };
 
+const BARBARIAN = 'barbarian';
+const BARD = 'bard';
+const CLERIC = 'cleric';
+const DRUID = 'druid';
+const FIGHTER = 'fighter';
+const MONK = 'monk';
+const PALADIN = 'paladin';
+const RANGER = 'ranger';
+const ROGUE = 'rogue';
+const SORCERER = 'Sorcerer';
+const WARLOCK = 'warlock';
+const WIZARD = 'wizard';
+
+const CHARACTER_CLASS_TYPES = [
+  BARBARIAN,
+  BARD,
+  CLERIC,
+  DRUID,
+  FIGHTER,
+  MONK,
+  PALADIN,
+  RANGER,
+  ROGUE,
+  SORCERER,
+  WARLOCK,
+  WIZARD
+];
+
 const CHARACTER_CLASSES = [
-  'barbarian',
-  'bard',
-  'cleric',
-  'druid',
-  'fighter',
-  'monk',
-  'paladin',
-  'ranger',
-  'rogue',
-  'rorcerer',
-  'warlock',
-  'wizard'
+  {
+    name: 'Barbarian',
+    value: BARBARIAN
+  },
+  {
+    name: 'Bard',
+    value: BARD
+  },
+  {
+    name: 'Cleric',
+    value: CLERIC
+  },
+  {
+    name: 'Druid',
+    value: DRUID
+  },
+  {
+    name: 'Fighter',
+    value: FIGHTER
+  },
+  {
+    name: 'Monk',
+    value: MONK
+  },
+  {
+    name: 'Paladin',
+    value: PALADIN
+  },
+  {
+    name: 'Ranger',
+    value: RANGER
+  },
+  {
+    name: 'Rogue',
+    value: ROGUE
+  },
+  {
+    name: 'Sorcerer',
+    value: SORCERER
+  },
+  {
+    name: 'Warlock',
+    value: WARLOCK
+  },
+  {
+    name: 'Wizard',
+    value: WIZARD
+  }
 ];
 
 const CHARACTER_RACES = [
@@ -91,6 +155,7 @@ const CHARACTER_HAIR_COLORS = [
 module.exports = {
   AUTH_USER,
   GAME_MASTER,
+  CHARACTER_CLASS_TYPES,
   CHARACTER_CLASSES,
   CHARACTER_RACES,
   CHARACTER_ALIGNMENTS,
