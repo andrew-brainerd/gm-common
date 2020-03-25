@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.5
+
+- Update characters races structure
+
 ## 0.0.4
 
 - Update character classes structure
