@@ -150,16 +150,52 @@ const CHARACTER_RACES = [
   }
 ];
 
-const CHARACTER_ALIGNMENTS = [
-  'lawfulGood',
-  'neutralGood',
-  'chaoticGood',
-  'lawfulNeutral',
-  'neutral',
-  'chaoticNeutral',
-  'lawfulEvil',
-  'neutralEvil',
-  'chaoticEvil'
+const GOOD = 'good';
+const EVIL = 'evil';
+const NEUTRAL = 'neutral';
+const LAWFUL = 'lawful';
+const CHAOTIC = 'caotic';
+
+const CHARACTER_ORDER_TYPES = [
+  LAWFUL,
+  NEUTRAL,
+  CHAOTIC
+];
+
+const CHARACTER_MORALITY_TYPES = [
+  GOOD,
+  NEUTRAL,
+  EVIL
+];
+
+const CHARACTER_ORDERS = [
+  {
+    name: 'Lawful',
+    value: LAWFUL
+  },
+  {
+    name: 'Neutral',
+    value: NEUTRAL
+  },
+  {
+    name: 'Chaotic',
+    value: CHAOTIC
+  }
+];
+
+const CHARACTER_MORALITY = [
+  {
+    name: 'Good',
+    value: GOOD
+  },
+  {
+    name: 'Neutral',
+    value: NEUTRAL
+  },
+  {
+    name: 'Evil',
+    value: EVIL
+  }
 ];
 
 const CHARACTER_SKIN_COLORS = [
@@ -210,7 +246,10 @@ module.exports = {
   CHARACTER_CLASSES,
   CHARACTER_RACE_TYPES,
   CHARACTER_RACES,
-  CHARACTER_ALIGNMENTS,
+  CHARACTER_ORDER_TYPES,
+  CHARACTER_ORDERS,
+  CHARACTER_MORALITY_TYPES,
+  CHARACTER_MORALITY,
   CHARACTER_SKIN_COLORS,
   CHARACTER_HAIR_COLORS
 };

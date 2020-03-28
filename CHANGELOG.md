@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.7
+
+- Add character alignment structure
+
 ## 0.0.6
 
 - Add basic documentation
