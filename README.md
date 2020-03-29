@@ -31,3 +31,31 @@ console.log(characters.raceTypes);
 console.log(characters.races);
 // [{ name: 'Dwarf', value: 'dwarf' }, { name: 'Elf', value: 'elf' }, etc]
 ```
+
+### Character Alignments
+
+Provides an array of order and morality types as well as an object with types as values and a display name for the order or morality
+
+#### Character Orders
+
+```js
+import { characters } from 'gm-common';
+
+console.log(characters.alignments.orderTypes);
+// ['lawful', 'neutral', 'chaotic']
+
+console.log(characters.alignments.orders);
+// [{ name: 'Lawful', value: 'lawful' }, { name: 'Neutral', value: 'neutral' }, etc]
+```
+
+#### Character Morality
+
+```js
+import { characters } from 'gm-common';
+
+console.log(characters.alignments.moralityTypes);
+// ['good', 'neutral', 'evil']
+
+console.log(characters.alignments.morality);
+// [{ name: 'Good', value: 'good' }, { name: 'Neutral', value: 'neutral' }, etc]
+```
