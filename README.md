@@ -59,3 +59,25 @@ console.log(characters.alignments.moralityTypes);
 console.log(characters.alignments.morality);
 // [{ name: 'Good', value: 'good' }, { name: 'Neutral', value: 'neutral' }, etc]
 ```
+
+### Character Skin Color
+
+Provides an object with HEX values and a display name for the color
+
+```js
+import { characters } from 'gm-common';
+
+console.log(characters.skinColors);
+// [{ name: 'Pale', value: '#fff5ee' }, { name: 'Fair', value: '#ffebcd' }, etc]
+```
+
+### Character Hair Color
+
+Provides an object with HEX values and a display name for the color
+
+```js
+import { characters } from 'gm-common';
+
+console.log(characters.hairColors);
+// [{ name: 'Black', value: '#000000' }, { name: 'Gray', value: '#808080' }, etc]
+```

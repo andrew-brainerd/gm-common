@@ -199,44 +199,149 @@ const CHARACTER_MORALITY = [
 ];
 
 const CHARACTER_SKIN_COLORS = [
-  'Pale',
-  'Fair',
-  'Light',
-  'Light Tan',
-  'Tan',
-  'Dark Tan',
-  'Brown',
-  'Dark Brown',
-  'Black',
-  'Gray',
-  'White',
-  'Green',
-  'Blue',
-  'Purple'
+  {
+    name: 'Pale',
+    value: '#fff5ee'
+  },
+  {
+    name: 'Fair',
+    value: '#ffebcd'
+  },
+  {
+    name: 'Light',
+    value: '#ffe4b5'
+  },
+  {
+    name: 'Light Tan',
+    value: '#f5deb3'
+  },
+  {
+    name: 'Tan',
+    value: '#d2b48c'
+  },
+  {
+    name: 'Dark Tan',
+    value: '#cd853f'
+  },
+  {
+    name: 'Brown',
+    value: '#a0522d'
+  },
+  {
+    name: 'Dark Brown',
+    value: '#8b4513'
+  },
+  {
+    name: 'Black',
+    value: '#000000'
+  },
+  {
+    name: 'Gray',
+    value: '#808080'
+  },
+  {
+    name: 'White',
+    value: '#ffffff'
+  },
+  {
+    name: 'Green',
+    value: '#228b22'
+  },
+  {
+    name: 'Blue',
+    value: '#6495ed'
+  },
+  {
+    name: 'Purple',
+    value: '#800080'
+  }
 ];
 
 const CHARACTER_HAIR_COLORS = [
-  'Black',
-  'Gray',
-  'Platinum',
-  'White',
-  'Dark Blonde',
-  'Blonde',
-  'Bleach Blonde',
-  'Dark Redhead',
-  'Redhead',
-  'Light Redhead',
-  'Brunette',
-  'Auburn',
-  'Yellow',
-  'Amber',
-  'Brown',
-  'Hazel',
-  'Green',
-  'Blue',
-  'Aqua',
-  'Red',
-  'Purple'
+  {
+    name: 'Black',
+    value: '#000000'
+  },
+  {
+    name: 'Gray',
+    value: '#808080'
+  },
+  {
+    name: 'Platinum',
+    value: '#d3d3d3'
+  },
+  {
+    name: 'White',
+    value: '#ffffff'
+  },
+  {
+    name: 'Dark Blonde',
+    value: '#b8860b'
+  },
+  {
+    name: 'Blonde',
+    value: '#daa520'
+  },
+  {
+    name: 'Bleach Blonde',
+    value: '#f0e68c'
+  },
+  {
+    name: 'Dark Redhead',
+    value: '#800000'
+  },
+  {
+    name: 'Redhead',
+    value: '#ff8c00'
+  },
+  {
+    name: 'Light Redhead',
+    value: '#f4a460'
+  },
+  {
+    name: 'Brunette',
+    value: '#8b4513'
+  },
+  {
+    name: 'Auburn',
+    value: '#a0522d'
+  },
+  {
+    name: 'Yellow',
+    value: '#ffd700'
+  },
+  {
+    name: 'Amber',
+    value: '#daa520'
+  },
+  {
+    name: 'Brown',
+    value: '#8b4513'
+  },
+  {
+    name: 'Hazel',
+    value: '#808000'
+  },
+  {
+    name: 'Green',
+    value: '#228b22'
+  },
+  {
+    name: 'Blue',
+    value: '#6495ed'
+  },
+  {
+    name: 'Aqua',
+    value: '#00ced1'
+  },
+  {
+    name: 'Red',
+    value: '#dc143c'
+  },
+  {
+    name: 'Purple',
+    value: '#800080'
+  }
 ];
 
 module.exports = {

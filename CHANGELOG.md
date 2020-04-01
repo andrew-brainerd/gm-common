@@ -1,5 +1,10 @@
 # gm-common
 
+## 0.0.9
+
+- Add character skin color structure
+- Add character hair color structure
+
 ## 0.0.8
 
 - [Breaking] Change 'character' to 'characterName'
