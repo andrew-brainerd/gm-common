@@ -1,10 +1,10 @@
 const AUTH_USER = {
-  character: 'Auth User',
+  characterName: 'Auth User',
   color: 'orange'
 };
 
 const GAME_MASTER = {
-  character: 'Game Master',
+  characterName: 'Game Master',
   color: '#7383BF'
 };
 

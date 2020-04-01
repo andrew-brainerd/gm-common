@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.8
+
+- [Breaking] Change 'character' to 'characterName'
+
 ## 0.0.7
 
 - Add character alignment structure
