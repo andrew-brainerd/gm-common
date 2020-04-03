@@ -1,5 +1,9 @@
 # gm-common
 
+## 0.0.10
+
+- Add update player Pusher event
+
 ## 0.0.9
 
 - Add character skin color structure
