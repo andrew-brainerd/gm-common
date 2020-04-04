@@ -12,7 +12,7 @@ const {
   CHARACTER_SKIN_COLORS,
   CHARACTER_HAIR_COLORS
 } = require('./constants/characters');
-const { UPDATE_GAME } = require('./constants/sync');
+const { GAME_UPDATED, PLAYER_ADDED, GAME_STARTED } = require('./constants/sync');
 
 
 module.exports = {
@@ -32,7 +32,9 @@ module.exports = {
     skinColors: CHARACTER_SKIN_COLORS,
     hairColors: CHARACTER_HAIR_COLORS
   },
-  syncing: {
-    UPDATE_GAME
+  events: {
+    GAME_UPDATED,
+    PLAYER_ADDED,
+    GAME_STARTED
   }
 };

@@ -1,8 +1,11 @@
 # gm-common
 
-## 0.0.10
+## 0.1.0
 
-- Add update player Pusher event
+- Add `PLAYER_ADDED` Pusher event
+- Add `GAME_STARTED` Pusher event
+- [Breaking] Rename `UPDATE_GAME` event to `GAME_UPDATED`
+- [Breaking] Rename `syncing` export to `events`
 
 ## 0.0.9
 

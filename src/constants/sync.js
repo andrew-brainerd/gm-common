@@ -1,7 +1,9 @@
-const UPDATE_GAME = 'updateGame';
-const UPDATE_PLAYER = 'updatePlayer';
+const GAME_UPDATED = 'gameUpdated';
+const PLAYER_ADDED = 'playerAdded';
+const GAME_STARTED = 'gameStarted';
 
 module.exports = {
-  UPDATE_GAME,
-  UPDATE_PLAYER
+  GAME_UPDATED,
+  PLAYER_ADDED,
+  GAME_STARTED
 };
