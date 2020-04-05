@@ -13,7 +13,7 @@ const {
   CHARACTER_HAIR_COLORS
 } = require('./constants/characters');
 const { GAME_UPDATED, PLAYER_ADDED, GAME_STARTED } = require('./constants/sync');
-
+const { rollCharacter } = require('./characterProperties');
 
 module.exports = {
   characters: {
@@ -36,5 +36,8 @@ module.exports = {
     GAME_UPDATED,
     PLAYER_ADDED,
     GAME_STARTED
+  },
+  characterProperties: {
+    rollCharacter
   }
 };
